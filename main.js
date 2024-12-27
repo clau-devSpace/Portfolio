@@ -11,5 +11,26 @@
         nav.classList.remove("visible");
     })
 
+    const ocultos = document.querySelectorAll(".hidden");
+
+    const observer = new IntersectionObserver((entries)=>{
+        entries.forEach((entry)=>{
+            if(entry.isIntersecting){
+                entry.target.classList.add("reveal")
+            }
+        })
+    },
+    {rootMargin: "10px",
+
+    }
+
+    )
+
+    ocultos.forEach((oculto)=>{
+        observer.observe(oculto)
+    })
+
+
+
     
     
