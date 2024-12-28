@@ -15,6 +15,7 @@
 body {
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
+    background-color: #ffe5b4;
           
 }
 
@@ -35,6 +36,9 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
+   /* background-image: url("./sources/Fondo\ abstracto\ blanco\ _\ Vector\ Gratis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
 }
 
 
@@ -46,12 +50,13 @@ header h1{
     margin-block-start: 70px;
     font-size: 45px;
     line-height: 1;
-    color: #141c3a;
+    color: #4e148c;
+    
      
   }
 
   header img{
-    width: 250px;
+    width: 200px;
     height: auto;
   }
 
@@ -214,12 +219,12 @@ h4{
 h3{
     font-weight: 600;
     font-size: 22px;
-    color: #141c3a;
+    color: #30343f;
     margin-top: 20px;
 }
 
 .proyectos{
-    color: #141c3a;
+    color: #30343f;
     font-family: "Rubik Dirt", system-ui;
     font-weight: 400;
     font-style: normal;
