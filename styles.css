@@ -160,10 +160,11 @@ header h1{
     color: #4e148c;
 }
 
-.bi-envelope-at-fill, .bi-linkedin{
+.bi-envelope-at-fill, .bi-linkedin, .bi-whatsapp{
     font-size: 32px;
     color: #141c3a;
     padding: 10px;
+
 }
 
 .downloadcv, .iralsitio{
@@ -239,9 +240,37 @@ form #consulta{
 }
 
 .form{
-    align-items: center;
-    justify-content: center;
-    
+    text-align: center;
+    margin-top: 50px;
+}
+
+input, textarea{
+    border: 1px solid #b8b8ba;
+    background-color: #e7e6f7;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+textarea{
+    border-radius: 12px;
+}
+
+label{
+    color: #30343f;
+    font-weight: 500;
+}
+
+.button{
+    padding: 8px;
+}
+
+.contact{
+    margin-top: 30px;
+}
+
+.contacto1{
+    font-size: 35px;
+    color: #613dc1;
 }
 
 .hidden{
