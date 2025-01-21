@@ -305,7 +305,7 @@ label{
      position: absolute;
      display: block;
      right: 15px;
-     background-color: white;
+     background-color: transparent;
      color: #613dc1;
      cursor: pointer;
     }
@@ -331,7 +331,7 @@ label{
      top: 0;
      right: 0;
      bottom: 0;
-     background-color: #003049;
+     background-color: #fff;
      box-shadow: 0 0 0 100vmax(0, 0, 0, .5);
     }
 
@@ -345,13 +345,13 @@ label{
         align-items: end;
     }
 
-    .menu-item, .nav-menu, .nav-link, .cerrar-menu, .bi-x{
-        background-color: #003049;
+    /*.menu-item, .nav-menu, .nav-link, .cerrar-menu, .bi-x{
+        background-color: ;
     }
 
     .nav-link{
         color: #fff;
-    }        
+    }       */ 
         
 }
 
@@ -362,7 +362,7 @@ label{
         right: 15px;
         display: block;
         margin-right: 15px;
-        background-color: none;
+        background-color: transparent;
         color: #613dc1;
         cursor: pointer;
         }
