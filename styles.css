@@ -331,7 +331,7 @@ label{
      top: 0;
      right: 0;
      bottom: 0;
-     background-color: #fff;
+     background-color: #003049;
      box-shadow: 0 0 0 100vmax(0, 0, 0, .5);
     }
 
@@ -345,13 +345,13 @@ label{
         align-items: end;
     }
 
-    /*.menu-item, .nav-menu, .nav-link, .cerrar-menu, .bi-x{
-        background-color: ;
+    .menu-item, .nav-menu, .nav-link, .cerrar-menu, .bi-x{
+        background-color: #003049;
     }
 
     .nav-link{
         color: #fff;
-    }       */ 
+    }       
         
 }
 
