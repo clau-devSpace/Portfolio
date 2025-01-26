@@ -15,7 +15,8 @@
 body {
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
-    background-color: #f0e4e8;
+    color: black;
+    /*background-color: #f0e4e8;*/
           
 }
 
@@ -51,7 +52,6 @@ header h1{
     font-size: 45px;
     line-height: 1;
     color: #4e148c;
-    
      
   }
 
@@ -61,11 +61,14 @@ header h1{
     height: auto;
   }
 
+  header span{
+    color: #b782d1;
+  }
+
   
 .p1{
     max-width: 800px;
     font-weight: 500;
-    color: #30343f;
     font-style: italic;
     font-size: 20px;
     line-height: 2;
@@ -83,17 +86,16 @@ header h1{
     font-size: 20px;
     padding: 8px 10px;
     font-weight: 500;
-    
 }
 
 .nav-link{
     text-decoration: none;
-    color: #30343f;
+    color: black;
 }
 
 .contacto{
     border: solid 3px;
-    border-color: #4e148c;
+    border-color: #b782d1;
     border-radius: 20px;
     
 }
@@ -109,11 +111,11 @@ header h1{
     
 }
 
-.section1, section2{
+.section1, .section2{
     min-height: 100vh;
 }
 
-.skills, .formacion{
+ .formacion{
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
@@ -121,14 +123,14 @@ header h1{
     font-size: 18px;
     font-weight: 500px;
     flex-direction: column;
-}
 
+ }
 
 .section1 .fp{
     margin-left: 20px;
     margin-right: 20px;
+    border: 1px solid #b782d1;
     border-radius: 20px;
-    background-color: #C8ACD6;
 }
 
 .section1 .custom-bg, .section2 .custom-bg{
@@ -142,6 +144,12 @@ header h1{
 
 .section1 .row{
     margin-top: 10px;
+}
+
+.section1 .skill{
+    font-size: 60px;
+    color: #4e148c;
+    padding: 15px;
 }
 
 .section2  .card-body{
@@ -163,14 +171,12 @@ header h1{
 
 .bi-envelope-at-fill, .bi-linkedin, .bi-whatsapp{
     font-size: 32px;
-    color: #141c3a;
     padding: 10px;
 
 }
 
 .downloadcv, .iralsitio{
     text-decoration: none;
-    color: #141c3a;
     font-size: 20px;
     font-weight: 600;
 }
@@ -213,7 +219,6 @@ h2{
 }
 
 h4{
-    color: #30343f;
     font-weight: 600;
     font-size: 25px;
 }
@@ -221,12 +226,10 @@ h4{
 h3{
     font-weight: 600;
     font-size: 22px;
-    color: #30343f;
     margin-top: 20px;
 }
 
 .proyectos{
-    color: #30343f;
     font-family: "Rubik Dirt", system-ui;
     font-weight: 400;
     font-style: normal;
