@@ -172,7 +172,7 @@ header h1{
 .bi-envelope-at-fill, .bi-linkedin, .bi-whatsapp{
     font-size: 32px;
     padding: 10px;
-
+    color: black;
 }
 
 .downloadcv, .iralsitio{
@@ -210,8 +210,6 @@ h1, h2{
     font-weight: 500;
     list-style-type: none;
 }
-
-
 
 h2{
     padding-top: 100px;
