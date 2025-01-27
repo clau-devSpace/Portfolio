@@ -146,10 +146,14 @@ header h1{
     margin-top: 10px;
 }
 
-.section1 .skill{
+.section1 .skill, .skill2{
     font-size: 60px;
     color: #4e148c;
     padding: 15px;
+}
+
+.section1 .skill2{
+    font-size: 40px;
 }
 
 .section2  .card-body{
