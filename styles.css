@@ -182,7 +182,7 @@ header h1{
 }
 
 
-h1, h2{
+h1{
     color: #613dc1;
     font-weight: 600;
     font-size: 40px;
@@ -207,10 +207,6 @@ h1, h2{
     list-style-type: none;
 }
 
-h2{
-    padding-top: 100px;
-    font-size: 35px;  
-}
 
 h4{
     font-weight: 600;
@@ -223,7 +219,7 @@ h3{
     margin-top: 20px;
 }
 
-.proyectos{
+h2{
     font-family: "Rubik Dirt", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -337,13 +333,18 @@ label{
         color: #fff;
     } 
     
+    h2{
+        font-size: 28px;
+    }
 
     h3{
-        font-weight: 600;
-        font-size: 22px;
-        margin-top: 0px;
+        font-size: 18px;
     }
-        
+
+    .formacion{
+        font-size: 17px;
+    }
+    
 }
 
 @media screen and (max-width: 800px){
@@ -400,14 +401,19 @@ label{
     .menu-item, .nav-menu, .nav-link, .cerrar-menu, .bi-x{
         background-color: #003049;
     }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    .formacion{
+        font-size: 17px;
+    }
    
-    /*.section1, .section2{
-        padding: 50px;
-        margin-block-start: 80px;
-        margin-block-end: 20px;
-
-    }*/
-
 }
 
 
