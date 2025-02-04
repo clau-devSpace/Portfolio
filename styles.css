@@ -16,8 +16,7 @@ body {
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
     color: black;
-    /*background-color: #f0e4e8;*/
-          
+    background-color: #f7f0e4;
 }
 
 nav{
@@ -37,9 +36,6 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-   /* background-image: url("./sources/Fondo\ abstracto\ blanco\ _\ Vector\ Gratis.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;*/
 }
 
 
@@ -97,22 +93,19 @@ header h1{
     border: solid 3px;
     border-color: #b782d1;
     border-radius: 20px;
-    
 }
 
 
 .abrir-menu, .cerrar-menu{
-   
     background-color: #003049;
     color: #fff;
     border: none;
     font-size: 30px;
-    display: none;
-    
+    display: none;   
 }
 
 .section1, .section2{
-    min-height: 100vh;
+    margin-block-start: 50px;
 }
 
  .formacion{
@@ -161,13 +154,12 @@ header h1{
     font-weight: 600;
 }
 
-
 .section3{
     background-color: #C8ACD6;
     height: 100px;
-    margin-block-start: 50px;
+    margin-top: 65px;
+    clear: both;
 }
-
 
 .bi-file-earmark-arrow-down-fill{
     color: #4e148c;
@@ -236,8 +228,8 @@ h3{
     font-weight: 400;
     font-style: normal;
     font-size: 35px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-block-start: 50px;
+    margin-block-end: 50px;
 }
 
 form #consulta{
@@ -290,19 +282,6 @@ label{
     transform: translateY(0);
 }
 
-/*.hidden{
-    opacity: 0;
-    filter: blur(3px);
-    transform: translateX(-100%);
-    transition: all 1.5s;
-}
-
-
-.reveal{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-} */
 
 @media screen and (max-width: 500px){
    
@@ -356,7 +335,14 @@ label{
 
     .nav-link{
         color: #fff;
-    }       
+    } 
+    
+
+    h3{
+        font-weight: 600;
+        font-size: 22px;
+        margin-top: 0px;
+    }
         
 }
 
@@ -377,7 +363,6 @@ label{
         padding-bottom: 12px;
         cursor: pointer;
         color: #fff;
-    
        }
     
 
@@ -416,9 +401,12 @@ label{
         background-color: #003049;
     }
    
-    .sobre-mi{
-        margin-top: 20px;
-    }
+    /*.section1, .section2{
+        padding: 50px;
+        margin-block-start: 80px;
+        margin-block-end: 20px;
+
+    }*/
 
 }
 
